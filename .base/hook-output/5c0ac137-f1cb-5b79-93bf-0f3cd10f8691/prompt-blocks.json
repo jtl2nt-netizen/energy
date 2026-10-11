@@ -1,6 +1,16 @@
 {
-  "written_at": "2026-10-11T17:04:11+00:00",
+  "written_at": "2026-10-11T17:04:21+00:00",
   "session_id": "5c0ac137-f1cb-5b79-93bf-0f3cd10f8691",
   "budget_bytes": 10000,
-  "blocks": []
+  "blocks": [
+    {
+      "id": "walk-research",
+      "priority": 2,
+      "items": 10,
+      "noun": "record",
+      "bytes": 1506,
+      "printed": true,
+      "text": "<base-context name=\"Research\" kind=\"domain\" hops=\"2\">\n  decision  Research round 1 treats Portugal (and Spain via MIBEL) as a first-market candidate on par with Germany, not a second market. — hasDecision\n  decision  Treat the ChatGPT research brief (research/brief/00_original_brief.md) as a scope document, not a template to answer line by line. Prioritise the primary decision (1-2 first wedges from Munich) and depth on top wedges over 13 full deliverables. — hasDecision\n  decision  Use basemode (base CLI v0.16.0) as the shared memory layer for the energy-trading startup research project; workspace scaffolded at repo root, project slug 'energy'. — hasDecision\n  note      Brief critique: prioritise Germany + DACH and upstream buyers (Stadtwerke, BRPs, Direktver — hasDomain\n  note      Founding team: technical founder in Munich (ML/software/optimisation) plus a Portuguese co — hasDomain\n  note      Research round 1 decomposed into 10 parallel evidence tracks: DE small-asset flexibility;  — hasDomain\n  note      Track DE small-asset (2026-10-11): household VPP/aggregation in Germany is closed to softw — hasDomain\n  note      Track IT/CEE/FR screening (2026-10-11): Italy = structurally first-market (TIDE in force,  — hasDomain\n  note      Track NL/BE (2026-10-11): Dutch household imbalance trading is real but compressing (Mijnb — hasDomain\n  research  Every current-rule or market claim in reports must carry a dated 2025-2026 source; where n — hasRule\n</base-context>"
+    }
+  ]
 }
