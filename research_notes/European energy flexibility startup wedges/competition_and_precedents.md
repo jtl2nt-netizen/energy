@@ -1,3 +1,10 @@
+---
+type: note
+status: complete
+tags: [energy-flexibility, forecasting, battery-optimisation, germany, iberia, portugal, vpp, direct-marketing, stadtwerke, competitive-landscape, precedents, defensibility, entrix, enspired, flexpower, suena, dexter-energy, amperon, whiffle, axle-energy, 1komma5, enpal, kraken, modo-energy, open-source]
+relatedTo: [european-energy-flexibility-startup-wedges]
+---
+
 # Competitive landscape and precedents: European electricity-flexibility and energy-forecasting software (Germany first, Iberia second), as of October 2026
 
 Research date: 11 October 2026. Method note: ~60 web searches and ~75 page fetches. The per-turn search budget was exhausted before every segment could be covered; several primary pages returned 403/503 or were rate-limited (noted in Gaps). Company figures below are company claims unless an independent source is cited. Older data (pre-2024) is labelled historical. Funding in € unless stated; USD figures are noted as reported.
