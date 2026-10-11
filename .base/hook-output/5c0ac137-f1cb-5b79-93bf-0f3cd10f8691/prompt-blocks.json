@@ -1,16 +1,34 @@
 {
-  "written_at": "2026-10-11T16:46:32+00:00",
+  "written_at": "2026-10-11T17:02:23+00:00",
   "session_id": "5c0ac137-f1cb-5b79-93bf-0f3cd10f8691",
   "budget_bytes": 10000,
   "blocks": [
     {
-      "id": "global-rules",
-      "priority": 4,
+      "id": "research-topic-rules",
+      "priority": 1,
       "items": 1,
       "noun": "rule",
-      "bytes": 310,
+      "bytes": 181,
       "printed": true,
-      "text": "[DOMAIN: GLOBAL]\n  0. When writing or editing markdown files, follow the Markdown Ontology Protocol (MOP) — use YAML frontmatter with type, status, tags, and relatedTo fields so base sync can extract the document into the graph. Read ~/.base-gbl/docs/markdown-ontology-protocol.md before writing frontmatter."
+      "text": "[base rules · topic: research]\n  - Every current-rule or market claim in reports must carry a dated 2025-2026 source; where none was found, say so explicitly rather than asserting."
+    },
+    {
+      "id": "walk-research",
+      "priority": 2,
+      "items": 7,
+      "noun": "record",
+      "bytes": 1155,
+      "printed": true,
+      "text": "<base-context name=\"Research\" kind=\"domain\" hops=\"2\">\n  decision  Research round 1 treats Portugal (and Spain via MIBEL) as a first-market candidate on par with Germany, not a second market. — hasDecision\n  decision  Treat the ChatGPT research brief (research/brief/00_original_brief.md) as a scope document, not a template to answer line by line. Prioritise the primary decision (1-2 first wedges from Munich) and depth on top wedges over 13 full deliverables. — hasDecision\n  decision  Use basemode (base CLI v0.16.0) as the shared memory layer for the energy-trading startup research project; workspace scaffolded at repo root, project slug 'energy'. — hasDecision\n  note      Brief critique: prioritise Germany + DACH and upstream buyers (Stadtwerke, BRPs, Direktver — hasDomain\n  note      Founding team: technical founder in Munich (ML/software/optimisation) plus a Portuguese co — hasDomain\n  note      Research round 1 decomposed into 10 parallel evidence tracks: DE small-asset flexibility;  — hasDomain\n  research  Every current-rule or market claim in reports must carry a dated 2025-2026 source; where n — hasRule\n</base-context>"
+    },
+    {
+      "id": "walk-energy",
+      "priority": 2,
+      "items": 7,
+      "noun": "record",
+      "bytes": 463,
+      "printed": true,
+      "text": "<base-context name=\"Energy\" kind=\"domain\" hops=\"2\">\n  task      Critique brief and set research plan — hasDomain\n  task      Install basemode and scaffold workspace — hasDomain\n  task      Run country/wedge screening with web evidence — hasDomain\n  task      Write feasibility report and commit — hasDomain\n  milestone Research round 1: wedge selection report — hasDomain\n  project   energy — hasDomain\n  workspace energy — belongsTo\n</base-context>"
     }
   ]
 }
