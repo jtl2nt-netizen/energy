@@ -1,0 +1,10 @@
+# basemode runtime state is machine-local; keep config, drop logs/indexes
+.base/changes.jsonl
+.base/hook-output.jsonl
+.base/bm25-index.json
+.base/*.bak*
+.base-ast/
+__pycache__/
+*.pyc
+.venv/
+data/raw/
