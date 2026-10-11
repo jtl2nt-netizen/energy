@@ -1,1 +1,1 @@
-<context-bracket>[CRITICAL] (prompt 3)</context-bracket>
+<context-bracket>[CRITICAL] (prompt 4)</context-bracket>
