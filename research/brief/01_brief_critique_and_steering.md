@@ -1,3 +1,14 @@
+---
+ontology: true
+type: decision
+domain: research
+summary: Critique of the ChatGPT research brief and the hypotheses round 1 tests, including the Portugal co-founder update
+tags: [brief, steering, hypotheses, germany, portugal]
+status: active
+discovered: 2026-10-11
+related: [00_original_brief]
+---
+
 # Critique of the brief and how the research is steered
 
 Date: 2026-10-11. Author: Claude (coordinator), recorded in basemode under domain `research`.
@@ -17,7 +28,14 @@ Its weaknesses, and what this round does about them:
    optimises for the *primary decision* (one or two first wedges from Munich) and treats
    the remaining deliverables as supporting material at the depth the decision needs.
 
-2. **It under-weights Germany.** The country hypotheses (PT, ES, IT, PL, GR, RO, HU, BG)
+2. **It under-weights the founders' home markets.** Update 2026-10-11: the team has a
+   Portuguese co-founder living in Portugal, so Portugal and the Iberian MIBEL market get
+   first-market weight too (native language, local presence, a network to build on).
+   The brief listed Portugal only as a hypothesis; it is now screened at full depth
+   alongside Germany, and the funding/incorporation track compares a German entity, a
+   Portuguese entity and a dual structure.
+
+   On Germany specifically: The country hypotheses (PT, ES, IT, PL, GR, RO, HU, BG)
    assume the opportunity is abroad, while the founder is in Munich with no network and no
    local language elsewhere. Germany in 2026 has several things those markets lack:
    mandatory dynamic tariffs from every supplier, §14a EnWG controllable loads with
@@ -61,9 +79,12 @@ Its weaknesses, and what this round does about them:
 - H4: Netherlands and Belgium are the most attractive non-German markets because
   imbalance-based home battery optimisation and congestion products already pay, but
   they are also the most contested.
-- H5: Spain, Italy, Poland and the rest of the brief's list have real structural
-  opportunities but weak software-only access for a foreign founder; they are second
-  markets, not first.
+- H5: Italy, Poland and the rest of the brief's list have real structural opportunities
+  but weak software-only access for a foreign founder; they are second markets, not first.
+- H6: Portugal is small (about 6.5 million metering points) but reachable through the
+  co-founder; the realistic buyers are retailers and renewable producers exposed to
+  imbalance costs, energy-community platform vendors, and BESS developers, with Spain
+  reachable through the same MIBEL market. To be tested, not assumed.
 
 ## Deliverables of this round
 

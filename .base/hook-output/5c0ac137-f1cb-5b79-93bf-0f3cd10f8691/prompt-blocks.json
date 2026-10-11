@@ -1,0 +1,16 @@
+{
+  "written_at": "2026-10-11T16:46:32+00:00",
+  "session_id": "5c0ac137-f1cb-5b79-93bf-0f3cd10f8691",
+  "budget_bytes": 10000,
+  "blocks": [
+    {
+      "id": "global-rules",
+      "priority": 4,
+      "items": 1,
+      "noun": "rule",
+      "bytes": 310,
+      "printed": true,
+      "text": "[DOMAIN: GLOBAL]\n  0. When writing or editing markdown files, follow the Markdown Ontology Protocol (MOP) — use YAML frontmatter with type, status, tags, and relatedTo fields so base sync can extract the document into the graph. Read ~/.base-gbl/docs/markdown-ontology-protocol.md before writing frontmatter."
+    }
+  ]
+}
