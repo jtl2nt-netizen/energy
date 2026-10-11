@@ -8,3 +8,6 @@ __pycache__/
 *.pyc
 .venv/
 data/raw/
+.base/.session
+.base/hook-events.jsonl
+.base/match-log.jsonl
