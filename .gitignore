@@ -11,3 +11,9 @@ data/raw/
 .base/.session
 .base/hook-events.jsonl
 .base/match-log.jsonl
+.base/hook-output/
+.base/last-*
+.base/match-log/
+.base/match-log.lock
+.base/.signal-state
+.base/.last-domain-delta
