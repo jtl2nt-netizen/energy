@@ -1,0 +1,8 @@
+numpy
+pandas
+scipy
+highspy
+pvlib
+requests
+pytest
+pypdf

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Smart home-energy control: value in Portugal and Spain</title>
+<style>
+@page { size: A4; margin: 11mm 13mm; }
+body { font-family: "Helvetica Neue", Arial, sans-serif; color: #1d2a33; font-size: 9.6pt; line-height: 1.32; margin: 0; }
+h1 { font-size: 17pt; margin: 0 0 2mm; color: #0f3d4c; }
+.sub { color: #4a5a63; margin: 0 0 5mm; font-size: 10.5pt; }
+h2 { font-size: 11pt; color: #0f3d4c; margin: 4mm 0 1.5mm; border-bottom: 1px solid #c9d6dc; padding-bottom: 1mm; }
+table { border-collapse: collapse; width: 100%; font-size: 9.4pt; }
+th, td { padding: 1.6mm 2mm; border-bottom: 1px solid #e1e8eb; text-align: right; }
+th:first-child, td:first-child, th:nth-child(2), td:nth-child(2) { text-align: left; }
+th { background: #eef4f6; font-weight: 600; }
+td.hi { font-weight: 700; color: #0b6e4f; }
+.kpis { display: flex; gap: 4mm; margin: 2mm 0 1mm; }
+.kpi { flex: 1; background: #f3f8f9; border-radius: 2mm; padding: 3mm; }
+.kpi b { display: block; font-size: 15pt; color: #0b6e4f; }
+.kpi span { font-size: 9pt; color: #4a5a63; }
+ul { margin: 1mm 0 0 5mm; padding: 0; }
+li { margin-bottom: 1mm; }
+.note { font-size: 7.6pt; color: #5b6970; margin-top: 4mm; }
+</style></head><body>
+<h1>Smarter control of home solar, batteries and EVs</h1>
+<p class="sub">What a forecast-driven controller is worth per home in Portugal and Spain: a year-long simulation on 2025 market data and 2026 tariffs.</p>
+
+<div class="kpis">
+ <div class="kpi"><b>€145–190</b><span>saved per year per solar + battery + EV home on time-of-use or hourly tariffs, paid market prices for exports, against default settings (€77 on a flat tariff)</span></div>
+ <div class="kpi"><b>€45–100</b><span>saved per year per solar + battery home without an EV, same conditions</span></div>
+ <div class="kpi"><b>40–70%</b><span>of the theoretical maximum captured, with deliberately simple forecasts</span></div>
+</div>
+
+<h2>Annual energy cost of one home (EUR, including battery wear)</h2>
+<table>
+<tr><th>Home</th><th>Tariff (import / export)</th><th>Default settings</th><th>Smart EV charger</th><th>Our controller</th><th>Saving vs default</th></tr>
+<tr><td>Lisbon, PV + battery + EV</td><td>Three-period / hourly market</td><td>340</td><td>232</td><td>182</td><td class="hi">158</td></tr>
+<tr><td>Lisbon, PV + battery + EV</td><td>Two-period / hourly market</td><td>342</td><td>238</td><td>195</td><td class="hi">147</td></tr>
+<tr><td>Madrid, PV + battery + EV</td><td>PVPC / hourly market</td><td>317</td><td>181</td><td>131</td><td class="hi">186</td></tr>
+<tr><td>Madrid, PV + battery + EV</td><td>Fixed offer / hourly market</td><td>276</td><td>177</td><td>110</td><td class="hi">166</td></tr>
+<tr><td>Lisbon, PV + battery</td><td>Three-period / hourly market</td><td>10</td><td>10</td><td>-50</td><td class="hi">60</td></tr>
+<tr><td>Madrid, PV + battery</td><td>PVPC / hourly market</td><td>25</td><td>25</td><td>-71</td><td class="hi">96</td></tr>
+<tr><td>Lisbon, PV + battery</td><td>Any / fixed 0.01 €/kWh</td><td>53–64</td><td>53–64</td><td>57–66</td><td>≈ 0</td></tr>
+</table>
+
+<h2>What it means for an installer or retailer</h2>
+<ul>
+<li><b>The value is real where exports are paid at market prices</b> and largest in homes with an EV. Homes on a fixed export price gain little from battery scheduling, so we would not sell it to them.</li>
+<li><b>Most installed batteries run on default settings today.</b> The saving can be passed to customers, sold as a monthly service, or used to win new sales against utility offers.</li>
+<li><b>No hardware.</b> The engine works through the inverter and charger interfaces you already use, and can run read-only first.</li>
+</ul>
+
+<h2>Proposed next step</h2>
+<p>A free, read-only analysis on 50–100 of your installations over a few weeks. We compute what the controller would have done; nothing is switched. You receive a per-home report of the saving before deciding on a pilot.</p>
+
+<p class="note">Method: one home per city simulated hour by hour through 2025: 5 kWp solar (30° south), 10 kWh / 5 kW battery, 3,500 kWh/yr household load, EV of 2,350 kWh/yr with a weekday commute, 3.7 kW charger, 6.9 kVA contract. Prices: OMIE day-ahead 2025 (PT and ES zones). Tariffs: ERSE 2026 regulated BTN prices with VAT (PT); 2026 2.0TD network charges and cargos with taxes (ES). Export at the hourly market price minus €10/MWh, or fixed. Solar: NASA POWER 2025 radiation. Forecasts use only data available at decision time. "Smart EV charger" follows solar surplus and the cheapest known hours. Not modelled: Spain's monthly compensation cap, 15-minute settlement. Results for a real fleet will differ; the read-only analysis exists to measure them.</p>
+</body></html>
