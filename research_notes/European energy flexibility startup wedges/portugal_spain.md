@@ -396,3 +396,13 @@ Relative to Germany, Iberia offers better data (99% smart meters in PT vs. Germa
 ### Gaps
 - German baseline figures (smart-meter rollout, negative hours, §14a status) are outside this note's scope and should come from the German researcher's note.
 - Portuguese and Spanish procurement/sales-cycle evidence for small software vendors remains anecdotal (one Jungle AI case; Bamboo Energy).
+
+## Addendum 2026-10-12: storage pipeline and auction status
+
+- Installed grid batteries: APREN's annual review counts 20 MW of battery storage deployed at end-2025 (the ~120 MW mid-2025 figure above includes projects near commissioning) — [ESS News, 18 Aug 2026](https://www.ess-news.com/2026/08/18/portugal-works-towards-3-gw-battery-storage-target-by-2030/)
+- Targets: PNEC 2030 says 2 GW of batteries; the newer National Energy Storage Strategy raises this to 3 GW by 2030 and 4.5 GW by 2040 (same source).
+- Pipeline: 43 PRR storage projects (~500 MW, €100m) awarded January 2025, "expected to become progressively operational"; two September 2026 procedures for 750 MVA standalone storage and 300 MVA renewables with co-located storage at named grid nodes (Rio Maior, Abrantes, Sines-Santo André, Alcochete-Palmela, Pegões-Divor, Estremoz, Tavira) — [pv magazine, 1 Jul 2026](https://www.pv-magazine.com/2026/07/01/portugal-sets-september-auction-for-1-05-gw-of-energy-storage/)
+- Revenue model: the September procedures "are fully exposed to market revenues" and "do not currently include a capacity mechanism remunerating availability" (DGEG's Serôdio, via ESS News). Municipalities receive 30% (standalone) or 70% (surplus capacity) of the revenue obtained by the SEN — [ECO, 29 Jun 2026](https://eco.sapo.pt/2026/06/29/leilao-de-baterias-marcado-para-14-de-setembro-com-ganhos-anuais-para-os-municipios/)
+- A separate capacity market with a dedicated 750 MVA battery auction is planned, in EU pre-notification, no date — [pv magazine, 18 Jun 2026](https://www.pv-magazine.com/2026/06/18/portugal-plans-capacity-market-with-dedicated-battery-storage-auction/)
+- Auction results: not published as of 12 Oct 2026 (searches in PT and EN returned only pre-auction coverage). Winners, once published, are the primary prospect list.
+- Implication: Portugal's battery market is early, not saturated. Merchant-exposed batteries are the customer type that pays for optimisation, and the fleet should grow from tens of MW to GW scale by 2030 if the auctions and PRR projects deliver.
